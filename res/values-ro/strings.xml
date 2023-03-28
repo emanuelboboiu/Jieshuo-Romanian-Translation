@@ -142,8 +142,8 @@ Jieshuo Plus este al nostru în măsura în care este și al dumneavoastră. Cre
     <string name="tts_use_offline_title">Se folosește motorul TTS de calitate înaltă din cloud</string>
     <string name="tts_use_offline_summary">Stabilește dacă un motor TTS de calitate înaltă este utilizat. Dacă se pierde conexiunea la wi-fi, calitatea motorului va fi schimbată înapoi la calitatea redusă a motorului offline</string>
     <string name="gesture_package_title">Schemă gesturi</string>
-    <string name="long_text_title">Editare text integral</string>
     <string name="gesture_manager_title">Gestionare scheme gesturi</string>
+    <string name="long_text_title">Editare text integral</string>
     <string name="use_ocr_title">OCR automat</string>
     <string name="use_ocr_summary">Stabilește dacă motorul de OCR este folosit când un element neetichetat, o fotografie sau orice element inaccesibil este atins. Trebuie să luați în considerare că această funcție poate consuma mai multe date și mai multă baterie</string>
     <string name="content_blacklist_title">Listă conținuturi blocate</string>
@@ -319,7 +319,7 @@ Jieshuo Plus este al nostru în măsura în care este și al dumneavoastră. Cre
     <string name="alarm_settings_title">Setări cronometru</string>
     <string name="url_menu_title">Deschidere URL</string>
     <string name="use_long_click_voice_input_title">Activare dictare la menținere deget în caseta de text</string>
-    <string name="voice_input_append_mode_title">"Inserare text explicativ la dictare"</string>
+    <string name="voice_input_append_mode_title">Inserare text explicativ la dictare</string>
     <string name="general_usage_hints_title">Redare sfaturi de utilizare</string>
     <string name="general_speak_list_title">Redare index pentru elementele din liste</string>
     <string name="general_settings_title">Setări generale</string>
@@ -367,8 +367,8 @@ Jieshuo Plus este al nostru în măsura în care este și al dumneavoastră. Cre
     <string name="use_timer_vibrate_title">Semnalizare haptică</string>
     <string name="use_double_edge_gesture_title">Gesturi margine cu două degete</string>
     <string name="use_raw_click_title">Click brut în loc de  apăsare accesibilitate</string>
-    <string name="use_raw_click_summary">,Stabilește dacă apăsarea brută este folosită în locul apăsării de accesibilitate. Această opțiune simulează o apăsare nativă pe poziția elementului, accesibilitatea anumitor aplicații putând fi îmbunătățită astfel.</string>
     <string name="has_vip_summary">%s este disponibilă doar utilizatorilor versiunii complete</string>
+    <string name="use_raw_click_summary">,Stabilește dacă apăsarea brută este folosită în locul apăsării de accesibilitate. Această opțiune simulează o apăsare nativă pe poziția elementului, accesibilitatea anumitor aplicații putând fi îmbunătățită astfel.</string>
     <string name="vip_qq_kefu_title">Serviciul Jieshuo Plus de relații cu clienții</string>
     <string name="vip_qq_kefu_summary">Consultanță, cumpărare și transfer de licențe. Asigurați-vă că luați legătura doar cu personalul certificat.</string>
     <string name="use_speak_changed_window_title">Citire conținut fereastră la schimbarea acesteea</string>
@@ -557,8 +557,8 @@ Jieshuo Plus este al nostru în măsura în care este și al dumneavoastră. Cre
     <string name="command_node_mode">Navigare mod obiect</string>
     <string name="command_to_home">Ecran pornire</string>
     <string name="command_to_back">Înapoi</string>
-    <string name="command_long_edit">Editare avansată</string>
     <string name="command_all_speak">Citire ecran complet</string>
+    <string name="command_long_edit">Editare avansată</string>
     <string name="command_all_speak2">Citire integrală</string>
     <string name="command_all_select">Selectare text integral</string>
     <string name="command_voice_helper">Asistent vocal</string>
@@ -585,11 +585,6 @@ Jieshuo Plus este al nostru în măsura în care este și al dumneavoastră. Cre
     <string name="double_fling_left_gesture_title">Glisare la stânga</string>
     <string name="double_fling_up_gesture_title">Glisare în sus</string>
     <string name="double_fling_right_gesture_title">Glisare la dreapta</string>
-    
-    
-    
-    
-    
     <string name="double_fling_down_gesture_title">Glisare în jos</string>
     <string name="down_right_double_fling_setting">Gest compus în jos și în dreapta</string>
     <string name="down_right_double_fling_left_gesture_value_default">Înapoi</string>
@@ -952,8 +947,8 @@ Jieshuo Plus este al nostru în măsura în care este și al dumneavoastră. Cre
     <string name="check_permissions_msg">Jieshuo Plus are nevoie de câteva permisiuni de bază pentru a funcționa, de exemplu, permisiunea de stocare este utilizată pentru a citi schemele de sunet, extensiile sau orice alte date externe de pe dispozitiv. Faceți click pe „Următorul” pentru a continua și a acorda toate permisiunile necesare, sau faceți click pe „Anulare” pentru a ieși din software</string>
     <string name="next">Următorul</string>
     <string name="setup_setting_done">Activitate expert configurare finalizată</string>
-    <string name="setup_setting_done_msg"><![CDATA[În cazul în care trebuie să rulați din nou expertul de configurare de bază, accesați Setări generale > Expertul de configurare]]></string>
     <string name="setup_setting_continue">Continuați configurarea</string>
+    <string name="setup_setting_done_msg"><![CDATA[În cazul în care trebuie să rulați din nou expertul de configurare de bază, accesați Setări generale > Expertul de configurare]]></string>
     <string name="setup_setting_not_permission">Permisiuni de bază neacordate</string>
     <string name="setup_setting_not_permission_msg">Jieshuo Plus nu va funcționa fără anumite permisiuni de bază pe care nu le-ați acordat încă. Dacă faceți click pe „Continuare configurare” veți acorda toate permisiunile necesare și veți continua configurarea, dacă faceți click pe „Acordare permisiuni” veți acorda toate permisiunile necesare și veți ieși din expertul de configurare, în timp ce dacă faceți click pe „Ieșire”, unele funcții vor funcționa incorect.</string>
     <string name="setup_setting_set_permission_and_exit">Acordați permisiuni și ieșiți</string>
@@ -1003,21 +998,21 @@ Jieshuo Plus este al nostru în măsura în care este și al dumneavoastră. Cre
     <string name="sound_focus2">Element focalizabil</string>
     <string name="sound_focus3">Element tastatură</string>
     <string name="sound_focus4">Element nefocalizabil</string>
-    <string name="sound_focus0">Element listă</string>
     <string name="sound_click">Click</string>
     <string name="sound_long_click">Apăsare lungă</string>
+    <string name="sound_focus0">Element listă</string>
     <string name="sound_scroll_up">Derulați în sus</string>
     <string name="sound_scroll_down">Derulați în jos</string>
-    <string name="sound_beep">Bordură</string>
     <string name="sound_tick">Beep cronometru</string>
+    <string name="sound_beep">Bordură</string>
     <string name="sound_clock">Ceas</string>
     <string name="sound_screen_off">Ecran blocat</string>
     <string name="sound_screen_on">Ecran deblocat</string>
     <string name="sound_window_state">Schimbare fereastră</string>
     <string name="sound_dialog">Caseta de dialog</string>
-    <string name="sound_gesture_start">Inițializare gest</string>
     <string name="sound_gesture_end">Finalizare gest</string>
     <string name="recognition_start">Recunoaștere vocală pornită</string>
+    <string name="sound_gesture_start">Inițializare gest</string>
     <string name="recognition_end">Recunoaștere vocală oprită</string>
     <string name="recognition_success">Recunoaștere vocală finalizată</string>
     <string name="recognition_error">Eroare recunoaștere vocală</string>
@@ -1110,8 +1105,8 @@ Jieshuo Plus este al nostru în măsura în care este și al dumneavoastră. Cre
     <string name="use_accessibility_volume_fix_summary">În cazul în care volumul de accesibilitate fluctuează frecvent, puteți încerca să activați această opțiune</string>
     <string name="msg_exit_game_mode">Mod joc dezactivat</string>
     <string name="privacy">Politica de confidențialitate</string>
-    <string name="show_download_title">Descărcare Jieshuo Plus</string>
     <string name="version_msg">%s\nDimensiune: %s.\nNumăr de descărcări: %s.</string>
+    <string name="show_download_title">Descărcare Jieshuo Plus</string>
     <string name="user_new_password">Parolă nouă - 6 până la 15 caractere latine</string>
     <string name="repassword_title">Schimbați parola</string>
     <string name="msg_not_empty">Nu poate fi gol</string>
@@ -1137,7 +1132,7 @@ Jieshuo Plus este al nostru în măsura în care este și al dumneavoastră. Cre
     <string name="next_chapter_default_value">*Pagina următoare*|*Capitolul următor*|*Pagina următoare*|*Capitolul următor*|*Pagina următoare*</string>
     <string name="previous_chapter_default_value">*Pagina anterioară*|*Capitolul anterior*|*Pagina anterioară*|*Capitolul anterior*|*Pagina anterioară*</string>
     <string name="msg_activated">Cererea dvs. de activare a fost trimisă pentru examinare. Dacă activarea nu este efectuată într-un termen rezonabil, vă rugăm să contactați Serviciul Clienți</string>
-    <string name="flash_light">Lanterna</string>
+    <string name="flash_light">Bliț</string>
     <string name="cloud_multi_backup_title">Backup integral</string>
     <string name="cloud_multi_restore_title">Restaurare integrală</string>
     <string name="search_engine_title">Motor de căutare</string>
@@ -1332,7 +1327,6 @@ Dacă întâmpinați probleme dezactivați opțiunea.</string>
     <string name="expand">Extindere</string>
     <string name="fold">Restrângere</string>
     <string name="decoding">Decodare</string>
-    <string name="decode_start">Pornire Decodare</string>
     <string name="hide_dialog">Ascunde dialogul</string>
     <string name="back_up">Precedentul</string>
     <string name="make_dir">Dosar nou</string>
@@ -1465,39 +1459,32 @@ Dacă întâmpinați probleme dezactivați opțiunea.</string>
     <string name="msg_start_auto_ocr">Start citire automată subtitrări</string>
     <string name="msg_stop_auto_ocr">Stop citire subtitrări</string>
     <string name="start_auto_ocr_title">Selectare zonă recunoaștere text</string>
-    <string name="command_disable_edge_gesture_title">暂停边缘手势</string>
-    <string name="use_game_mode_no_speak_title">游戏模式时禁用语音合成</string>
-    <string name="use_game_mode_no_edge_title">游戏模式时禁用边缘手势</string>
-    <string name="game_mode_setting">游戏模式设置</string>
-    <string name="timer_items_title">预设的计时器</string>
-    <string name="timer_tags">标签</string>
-    <string name="command_paste_from_cloud">从云剪切板粘贴</string>
-    <string name="command_copy_to_cloud">复制到云剪切板</string>
-    <string name="use_timer_stream_type_title">使用的音频通道</string>
-    <string name="timer_tts_engine_title">报时语音库</string>
-    <string name="command_up_page">上滑翻页</string>
-    <string name="command_down_page">下滑翻页</string>
-    <string name="command_left_page">左滑翻页</string>
-    <string name="command_right_page">右滑翻页</string>
-    <string name="vr_camera">解说VR助视</string>
-    <string name="language_setting_title">语言设置</string>
-    <string name="vr_dialog_title">重要提示</string>
-    <string name="vr_dialog_message">解说VR助视功能需配合VR眼镜盒子和蓝牙遥控器使用，本功能主要辅助低视力用户看周围环境、书籍或电脑，电视等。\n
-    因放大后的视角与刷新率问题，该功能不适用于行走出行等场景使用。\n
-    如果外出需要观察周围环境，如看公交站牌，地铁站，寻找店铺牌匾等，请务必在停止行走并确认周围安全情况下使用。\n
-    使用方法：\n
-    请在看见屏幕分成两个部分后，将手机左侧向下放入VR眼睛盒，遥控器方向键用于切换设置的项目和数值，确定键可以使用ocr识别,\n
-    没有遥控器时可使用手机音量键调节倍率。\n
-    （补充），因市面上的VR眼镜盒参差不齐，有些可能挡住摄像头，导致无法正常使用此功能，需要购买VR眼镜盒，可提前联系客服确认是否可以使用。\n
-    注:若不按提示指引使用，造成的一切后果自行承担。</string>
-    <string name="vr_camera_ae">曝光</string>
-    <string name="vr_camera_flash_on">闪光灯已打开</string>
-    <string name="vr_camera_flash_off">闪光灯已关闭</string>
-    <string name="vr_camera_distance">瞳距</string>
-    <string name="vr_camera_light">亮度</string>
-    <string name="vr_camera_zoom">变焦</string>
-    <string name="use_show_text_title">显示语音输出</string>
-    <string name="use_window_title_changed_title">朗读窗口标题改变</string>
-    <string name="do_not_prompt_again">不再提示</string>
-    <string name="use_custom_language_title">使用自定义语言</string>
+    <string name="command_disable_edge_gesture_title">Suspendare gesturi margine</string>
+    <string name="use_game_mode_no_speak_title">Suspendare feedback vocal în timp ce mod joc este activ</string>
+    <string name="use_game_mode_no_edge_title">Suspendare gesturi de margine în timp ce mod joc este activ</string>
+    <string name="game_mode_setting">Setări mod joc</string>
+    <string name="timer_items_title">Temporizator presetat</string>
+    <string name="timer_tags">Etichetă</string>
+    <string name="command_paste_from_cloud">Inserare din clipboard cloud</string>
+    <string name="command_copy_to_cloud">Copiere în clipboard cloud</string>
+    <string name="use_timer_stream_type_title">Canal audio</string>
+    <string name="timer_tts_engine_title">Motor TTS</string>
+    <string name="command_up_page">Derulare directă în sus</string>
+    <string name="command_down_page">Derulare directă în jos</string>
+    <string name="command_left_page">Derulare directă spre stânga</string>
+    <string name="command_right_page">Derulare directă spre dreapta</string>
+    <string name="vr_camera">Asistent vizual [VR]</string>
+    <string name="language_setting_title">Setări limbă</string>
+    <string name="vr_dialog_title">Important de citit</string>
+    <string name="vr_dialog_message">Asistentul vizual VR este proiectat pentru a fi utilizat cu un dispozitiv de realitate virtuală pentru smartphone și o telecomandă Bluetooth, dar este și posibil să fie utilizat doar cu telefonul.\nAceastă caracteristică ajută utilizatorii cu deficiențe de vedere să vadă împrejurimile, să citească cărți sau ecrane de computer și televizor prin mărire și recunoaștere optică a caracterelor (OCR).\nCu toate acestea, din cauza unghiului larg de vizualizare și a ratei de reîmprospătare lente, această funcție nu este potrivită pentru scenarii precum mers pe jos sau călătorii. Dacă aveți nevoie să observați împrejurimile când sunteți afară, cum ar fi citirea indicatoarelor de oprire a autobuzului sau navigarea în stațiile de metrou, vă rugăm să stați pe loc și să vă asigurați că folosiți asistentul vizual VR numai atunci când sunteți convins că sunteți în siguranță.\nPentru a utiliza asistentul vizual VR, asigurați-vă mai întâi că ecranul telefonului este împărțit în două. Apoi, introduceți telefonul în dispozitivul VR cu ecranul orientat cu fața la dumneavoastră.\nUtilizați tastele săgeți de pe telecomandă pentru a modifica valorile și apăsați butonul OK pentru a recunoaște textul.\nDacă nu aveți telecomandă, puteți folosi tastele de volum ale telefonului sau ale dispozitivului VR pentru a regla mărirea și tasta de control media sau funcția de redare-pauză pentru recunoașterea textului; de asemenea, este posibil să utilizați o tastatură externă ca telecomandă.\nDeoarece dispozitivele VR vin în diferite dimensiuni, este important să vă asigurați că cel pe care îl cumpărați se potrivește corect telefonului dvs. În caz contrar, s-ar putea să se ajungă la o cameră acoperită, care ar reduce semnificativ capacitatea de utilizare a asistentului vizual VR.\nVă rugăm să rețineți că sunteți responsabil pentru orice consecințe ale neutilizarii asistentului vizual VR conform instrucțiunilor furnizate.</string>
+    <string name="vr_camera_ae">Expunere</string>
+    <string name="vr_camera_flash_on">Bliț activat</string>
+    <string name="vr_camera_flash_off">Bliț dezactivat</string>
+    <string name="vr_camera_distance">Distanță între lentile</string>
+    <string name="vr_camera_light">Luminozitate ecran</string>
+    <string name="vr_camera_zoom">Zoom</string>
+    <string name="use_show_text_title">Afișare vorbire ca text</string>
+    <string name="use_window_title_changed_title">Enunțare nume fereastră</string>
+    <string name="do_not_prompt_again">Nu mai afișa din nou</string>
+    <string name="use_custom_language_title">Utilizare traducere personalizată</string>
 </resources>
