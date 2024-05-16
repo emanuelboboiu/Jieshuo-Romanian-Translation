@@ -249,7 +249,6 @@ Jieshuo Plus este al nostru în măsura în care este și al dumneavoastră. Cre
     <string name="use_node_info_summary">"Stabilește dacă relația dintre elemente va fi citită în modul de navigare obiect. "</string>
     <string name="use_list_item_index_summary">Stabilește dacă indexul elementului focalizat este enunțat când navigați printr-o listă</string>
     <string name="use_scroll_list_index_summary">Stabilește dacă intervalul de afișare vizuală al listei este enunțat automat când sunt folosite comenzi de derulare</string>
-    <string name="use_view_name_index_summary">Stabilește dacă titlul ferestrei este citit automat. Dacă fereastra nu are un titlu, primul element focalizabil al ferestrei va fi citit</string>
     <string name="unknown_lable_summary">Stabilește dacă ID-ul unui element este citit în cazul în care elementul este neetichetat</string>
     <string name="use_progress_summary">Stabilește dacă actualizările barei de progres focalizată sunt citite automat</string>
     <string name="use_content_changed_summary">,Stabilește dacă schimbările produse în elementul focalizat sunt citite automat</string>
@@ -365,7 +364,7 @@ Jieshuo Plus este al nostru în măsura în care este și al dumneavoastră. Cre
     <string name="use_speak_changed_window_title">Citire conținut fereastră la schimbarea acesteea</string>
     <string name="use_timer_sound_title">Semnalizare sonoră</string>
     <string name="timer_setting_title">Setări cronometru</string>
-    <string name="voice_cmd_setting_title">Setări comenzi vocale</string>
+    <string name="voice_cmd_setting_title">Gestionare comenzi vocale</string>
     <string name="directory_cmd">Comenzi</string>
     <string name="use_move_list_view_item_summary">,Stabilește dacă scurtăturile de taste pot fi utilizate pentru derularea rapidă a listelor lungi</string>
     <string name="add">Adăugare</string>
@@ -385,7 +384,6 @@ Jieshuo Plus este al nostru în măsura în care este și al dumneavoastră. Cre
     <string name="more_setting">Mai multe opțiuni</string>
     <string name="kayword">Introduceți cuvânt cheie</string>
     <string name="notification_black_list_summary">Notificările care conțin conținut din lista neagră nu vor fi citite niciodată, chiar dacă citirea notificărilor este activată</string>
-    <string name="notification_while_list_summary">Notificările care conțin conținut din lista albă vor fi întotdeauna citite, chiar și atunci când citirea notificărilor este dezactivată</string>
     <string name="system_tts_volume_title">Volum TTS de sistem</string>
     <string name="notification_select_title">Notă de citit</string>
     <string name="message_disable_dim_screen">Vă rugăm dezactivați mai întâi cortina!</string>
@@ -1376,7 +1374,7 @@ Dacă întâmpinați probleme dezactivați opțiunea.</string>
     <string name="use_input_method_double_tap_title">Introducere caracter cu dublă atingere</string>
     <string name="split_word">Cuvinte</string>
     <string name="incall_setting_title">Setări enunțare apelant</string>
-    <string name="speak_call_phone_index_title">Numărul de apeluri</string>
+    <string name="speak_call_phone_index_title">Număr enunțări apelant</string>
     <string name="edit_node_name">Editare etichetă alternativă</string>
     <string name="edit_node">Editare conținut focalizat</string>
     <string name="use_input_method_no_touch_title">Suspendare explorare prin atingere când se deschide tastatura</string>
@@ -1543,7 +1541,7 @@ Dacă întâmpinați probleme dezactivați opțiunea.</string>
     <string name="are_you_delete_all_logs">Sigur ștergeți toate log-urile?</string>
     <string name="msg_speech_error_audio">Problemă audio</string>
     <string name="msg_speech_error_speech_timeout">Timp epuizat</string>
-    <string name="msg_speech_error_client">Altă eroare client</string>
+    <string name="msg_speech_error_client">·</string>
     <string name="msg_speech_error_permissions">Permisiune neacordată</string>
     <string name="msg_speech_error_network">Problemă de conexiune</string>
     <string name="msg_speech_error_busy">Server ocupat</string>
@@ -1628,9 +1626,107 @@ Glisați în jos, și în sus sau în sus, și în jos pentru a comuta tipul de 
     <string name="command_image_to_text">Recunoaștere imagine</string>
     <string name="incall_tts_setting_title">Setări TTS pentru enunțare apelant</string>
     <string name="reader_tts_setting_title">Setări TTS Mod citire</string>
-    <string name="char_mode_tts_setting_title">Selectare motor TTS pentru Mod citire</string>
-    <string name="auto_read_tts_setting_title">Selectare automată motor TTS</string>
+    <string name="char_mode_tts_setting_title">Setări TTS pentru citire caracter cu caracter</string>
+    <string name="auto_read_tts_setting_title">Setări TTS Navigare automată</string>
     <string name="notification_tts_setting_title">Setări TTS Enunțare notificări</string>
+    <string name="use_up_tap_prompt_title">Timp de așteptare  gesturi compuse</string>
+    <string name="double_fling_time_title">Timp de așteptare pentru gesturile compuse</string>
+    <string name="jieshuo_beta_title">Versiuni Jieshuo Beta</string>
+    <string name="picture_description">Descrierea detaliată a elementului focalizat</string>
+    <string name="auto_list_tts_setting_title">Setări TTS pentru citirea automată a mesajelor</string>
+    <string name="more_tts_setting_title">Setări TTS pentru diverse scenarii</string>
+    <string name="ocr_lang_zh">Engleză și chineză</string>
+    <string name="ocr_lang_zh_rare">Chineză tradițională și simplificată</string>
+    <string name="ocr_lang_auto">Automată</string>
+    <string name="ocr_lang_mix">Mixtă</string>
+    <string name="ocr_lang_jap">Japoneză</string>
+    <string name="ocr_lang_kor">Coreană</string>
+    <string name="ocr_lang_spa">Spaniolă</string>
+    <string name="ocr_lang_fre">Franceză</string>
+    <string name="ocr_lang_ger">Germană</string>
+    <string name="ocr_lang_por">Portugheză</string>
+    <string name="ocr_lang_vie">Vietnameză</string>
+    <string name="ocr_lang_may">Malaeză</string>
+    <string name="ocr_lang_rus">Rusă</string>
+    <string name="ocr_lang_ita">Italiană</string>
+    <string name="ocr_lang_hol">Olandeză</string>
+    <string name="ocr_lang_swe">Suedeză</string>
+    <string name="ocr_lang_fin">Finlandeză</string>
+    <string name="ocr_lang_dan">Daneză</string>
+    <string name="ocr_lang_nor">Norvegiană</string>
+    <string name="ocr_lang_hun">Maghiară</string>
+    <string name="ocr_lang_tha">Tailandeză</string>
+    <string name="ocr_lang_hi">Indiană</string>
+    <string name="ocr_lang_ara">Arabă</string>
+    <string name="use_virtual_screen_dim_background_title">Utilizare fundal închis pentru ecranul virtual</string>
+    <string name="edit_ocr_lua_title">Editare extensie OCR personalizat</string>
+    <string name="ocr_lua_template"><![CDATA[require \"import\"\nimport \"com.nirenr.talkman.ai.*\"\n--例子代码是帮助理解代码的伪代码，不能直接运行\nbs,listener=...--获取参数\ntask(function(bs)\nfunction 识别函数(bs)\n--虚拟构成识别结果\nreturn {\nlength=2,\n{\nt=\"例子代码是帮助理解代码的伪代码\",\nx=0,\ny=300,\nw=1000,\nh=100,\ns=50\n},\n{\nt=\"不能直接运行\",\nx=0,\ny=600,\nw=800,\nh=100,\ns=50\n}\n}\nend\n\nlocal ret=识别函数(bs)\nlocal rets=OcrResult.OcrItem[ret.length]--构建返回值数组\nfor n=1,ret.length do\n--注意java与lua数组开始索引不同\nrets[n-1]=OcrResult.OcrItem(\nret[n].t,--文字内容\nret[n].x,--文字x坐标，距离屏幕左侧距离\nret[n].y,--文字y坐标，距离屏幕顶部距离\nret[n].w,--文字区域宽度\nret[n].h,--文字区域高度\nret[n].s--文字高度\n)\nend\nreturn OcrResult(rets)--返回结果到主线程\nend,\nbs,--将图片的byte数组传入线程\nfunction(rets)\nlistener.onDone(rets)--在回调函数调用onDone通知读屏识别完成\nend)]]></string>
+    <string name="accessibility_service_description2">Jieshuo serviciu alternativ este utilizat pentru  a păcăli telefonul că  rulează cititorul de ecran Talkback și astfel va avea acces la anumite funcții disponibile doar când Talkback-ul este activat. \n
+Atenție! Nu trebuie să fie activate în același timp Jieshuo serviciu alternativ și Jieshuo Plus sau Jieshuo Lite.</string>
+    <string name="resume_on_screen_on_title">Reluare Jieshuo după deblocarea ecranului</string>
+    <string name="resume_on_notification_show_title">Reluare  Jieshuo cu gestul de deschidere a barei de notificări trăgând cu un deget din partea de sus a ecranului.</string>
+    <string name="resume_on_ringing_title">Reluare Jieshuo la primire apel</string>
+    <string name="helper_supper_cmd_title">Super comenzi vocale</string>
+    <string name="back_break_auto_mode_title">Utilizare gest înapoi pentru a întrerupe navigarea automată</string>
+    <string name="msg_export_all_file">Faceți  backup  tuturor setărilor și fișierelor în fișierul Jieshuo.zip, apoi  copiați-l și executați-l pe noul telefon.\n
+Atenție! Nu partajați acest fișier cu alte persoane deoarece conține și datele de logare Jieshuo și tot clipboard-ul dvs.</string>
+    <string name="msg_export_all_file_fail">Eroare de exportare. Vă rugăm reîncercați!</string>
+    <string name="import_all_title">Importați backup-ul complet?</string>
+    <string name="msg_import_all">Această acțiune va suprascrie setarile și resursele Jieshuo existente</string>
+    <string name="app_service2">Jieshuo serviciu alternativ</string>
+    <string name="app_no_supper_sound_package_title">Aplicații unde  feedback-ul sonor adițional nu este utilizat</string>
+    <string name="command_image_to_text2">Descriere simplă a ecranului</string>
+    <string name="picture_description2">Descriere detaliată a ecranului</string>
+    <string name="use_split_line_title">Raportarea numărului liniilor și a paragrafelor în modul de editare granulară</string>
+    <string name="msg_use_single_tts_enabled">Utilizarea unui singur motor TTS este activată</string>
+    <string name="msg_disable_use_single_tts">Trebuie dezactivată opțiunea Un singur motor TTS    pentru a utiliza %s. Doriți aceasta?</string>
+    <string name="command_auto_list_speak">Citirea automată a mesajelor din conversații</string>
+    <string name="command_auto_list_speak_history">Istoricul citirii automate a mesajelor din conversații</string>
+    <string name="msg_start_auto_list">Citirea automată a mesajelor a fost pornită pentru %s</string>
+    <string name="msg_stop_auto_list">Citirea automată a mesajelor a fost oprită pentru %s</string>
+    <string name="msg_username_typo">Format nume de utilizator sau parolă incorecte</string>
+    <string name="msg_username_error">Nume de utilizator sau parolă greșite</string>
+    <string name="msg_invite_code_error">Codul de invitație este incorect</string>
+    <string name="msg_username_used">Acest nume de utilizator este deja folosit</string>
+    <string name="msg_network_error">Eroare de conectare</string>
+    <string name="command_verification12">Verificare glisor</string>
+    <string name="command_recognition_edu">Rezultatul recunoașterii</string>
+    <string name="use_input_method_speak_word_title">Citire cuvânt ajutător  pentru literă în timpul tastării</string>
+    <string name="trans_lua_engine_title">Utilizare motor de traducere personalizat</string>
+    <string name="edit_trans_lua_title">Editare motor de traducere personalizat</string>
+    <string name="trans_lua_template"><![CDATA[" require \"import\" \nimport \"java.util.Locale\"\nlocal form,to,text,ltr=...\nlocal url=string.format(\"https://translate.google.com/m?sl=%s&tl=%s&hl=%s&q=%s\",from,to,Locale.getDefault().getCountry(),text)\nHttp.get(url,function(code,text)\nltr.onTransResult(text:match(\"<[^<>]*\\\"result%-container\\\">([^<>]*)</div>\"))\nend)"]]></string>
+    <string name="match_all">Potrivire exactă a textului</string>
+    <string name="match_start">Potrivirea textului pornită</string>
+    <string name="match_end">Potrivirea textului dezactivată</string>
+    <string name="match_contains">Potrivire nerestricționată</string>
+    <string name="today">Astăzi</string>
+    <string name="yesterday">Ieri</string>
+    <string name="before_yesterday">Alaltăieri</string>
+    <string name="command_accept_call">Răspunde la apel</string>
+    <string name="command_end_call">Închide apelul</string>
+    <string name="command_pause_a11y_volume">Suspendare volum accesibilitate</string>
+    <string name="msg_supper_cmd_only_voice_helper">Super comenzile vocale pot fi folosite doar cu Asistentul vocal</string>
+    <string name="msg_no_a11y_volume">Nu se utilizează volumul de accesibilitate</string>
+    <string name="msg_a11y_volume_disabled">Utilizare volum media</string>
+    <string name="msg_a11y_volume_enabled">Utilizare volum accesibilitate</string>
+    <string name="content_blacklist_description">Conținutul adăugat în lista neagră nu va fi citit în timpul navigării. Acest lucru ar putea ajuta la filtrarea conținutului nedorit sau a butoanelor care nu sunt etichetate corect.
+Cuvinte cheie pot fi adăugate cu asterisc pentru a implementa modele simple de potrivire:
+• Keyword* filters content starting with the keyword. 
+• *Keyword filters content ending with the keyword. 
+• *keyword* filters content containing the keyword. 
+• No asterisks indicate exact matching.</string>
+    <string name="auto_speak_blacklist_description">The content added to the blacklist will not be automatically spoken. This is used to filter out content that you do not want to be read during automatic message reading. 
+Keywords can be added with asterisks to implement simple matching patterns: 
+• Keyword* filters content starting with the keyword. 
+• *Keyword filters content ending with the keyword. 
+• *Keyword* filters content containing the keyword. 
+• No asterisks indicate exact matching.</string>
+    <string name="notification_black_list_description">Dacă este adăugat un singur asterisc, toate notificările din aplicație nu vor fi anunțate automat.</string>
+    <string name="nodeinfo_long_clickable">Poate fi apăsat lung</string>
+    <string name="nodeinfo_not_long_click">Nu se poate apăsa lung</string>
+    <string name="nodeinfo_editable">Editabil</string>
+    <string name="nodeinfo_not_edit">Nu este editabil</string>
+    <string name="use_view_name_index_summary">Stabilește dacă titlul ferestrei este citit automat. Dacă fereastra nu are un titlu, primul element focalizabil al ferestrei va fi citit</string>
     <string name="right_edge_gesture_value_default">Aplicații recente</string>
     <string name="left_edge_gesture_value_default">Înapoi</string>
     <string name="down_volume_key_value_default">Asistent vocal</string>
@@ -1640,6 +1736,7 @@ Glisați în jos, și în sus sau în sus, și în jos pentru a comuta tipul de 
     <string name="up_volume_short_key_value_default">Creștere volum</string>
     <string name="down_volume_short_key_value_default">Reducere volum</string>
     <string name="up_down_volume_short_key_value_default">Comutare gesturi</string>
+    <string name="notification_while_list_summary">Notificările care conțin conținut din lista albă vor fi întotdeauna citite, chiar și atunci când citirea notificărilor este dezactivată</string>
     <string name="back_rap_action_value_default">@string/command_now_time</string>
     <string name="shake_action_value_default">@string/command_nothing</string>
     <string name="down_right_double_fling_left_gesture_value_default">Înapoi</string>
